@@ -1,0 +1,8 @@
+<script>
+var wpcf7Elm = document.querySelector( '.wpcf7' );
+wpcf7Elm.addEventListener( 'wpcf7submit', 		function(event) {window.dataLayer.push({'event': 'contact_form_wpcf7submit'		});}, false );
+wpcf7Elm.addEventListener( 'wpcf7invalid', 		function(event) {window.dataLayer.push({'event': 'contact_form_wpcf7invalid'	});}, false );
+wpcf7Elm.addEventListener( 'wpcf7spam', 		function(event) {window.dataLayer.push({'event': 'contact_form_wpcf7spam'		});}, false );
+wpcf7Elm.addEventListener( 'wpcf7mailsent', 	function(event) {window.dataLayer.push({'event': 'contact_form_wpcf7mailsent'	});}, false );
+wpcf7Elm.addEventListener( 'wpcf7mailfailed', 	function(event) {window.dataLayer.push({'event': 'contact_form_wpcf7mailfailed'	});}, false );
+</script>
